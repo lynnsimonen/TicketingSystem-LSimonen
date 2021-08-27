@@ -17,6 +17,7 @@ namespace TicketingSystem
                 Console.WriteLine("Enter any other key to exit.");
                 // input response
                 choice = Console.ReadLine();
+                Console.WriteLine("");
 
                 if (choice == "1")
                 {
@@ -32,10 +33,11 @@ namespace TicketingSystem
                             // convert string to array
                             string[] arr = line.Split(',');
                             // display array data
-                            Console.WriteLine("{0}.{1}, {2}, {3}, {4}, {5}, {6})", arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6]);                           
+                            Console.WriteLine("{0},{1},{2},{3},{4},{5},{6}", arr[0], arr[1], arr[2], arr[3], arr[4], arr[5], arr[6]);                           
+                           
                         }
                         sr.Close();
-                       
+                       Console.WriteLine("");
                     }
                     else
                     {
@@ -46,6 +48,7 @@ namespace TicketingSystem
                 {
                     // create file from data
                     StreamWriter sw = new StreamWriter(file);
+                    // Write column headers to first line .csv file 
                     sw.WriteLine("TicketID,Summary,Status,Priority,Submitter,Assigned,Watching");
                     for (int i = 0; i < 7; i++)
                     {
@@ -85,10 +88,42 @@ namespace TicketingSystem
                         // save the assigned
                         string assigned = Console.ReadLine();
 
-                        // prompt for watching
-                        Console.WriteLine("Enter person watching project");
-                        // save the watching
-                        string watching = Console.ReadLine();
+                        //------------------------------------------------------------
+                        //Loop to create array of names of all people watching project
+                        string [] watch = new string[6];
+                        //index of watch arr set at 0
+                        int j=0;
+                        //create variable for another watching answer
+                        string another;			
+                            do {
+                                // prompt for watching
+                                Console.WriteLine("Enter person watching project");
+                                // save the watching into array
+                                watch[j] = Console.ReadLine();
+                                // increment the array index
+                                j++;
+                                //ask user whether there is another person watching
+                                Console.WriteLine("Is there another person watching the project (Y/N)?");
+                                // input whether another is watching
+                                another = Console.ReadLine().ToUpper();
+                                // while another person watching is "Y", continue loop
+                            } while (another == "Y");
+                            //create a string to hold names of all people watching (starts empty)
+                            string watching = "";
+                            //if more than one person watching, do loop
+                            if (j>=1){
+                                //loop through all except last name listed and put pipe between them 
+                                for (int k=0; k<j-1; k++) {
+                                    watching += watch[k] + "|";
+                                }
+                                //cap string with last name listed
+                                watching = watching + watch[j-1];
+                            } else
+                                //if only one name, no need for pipes 
+                                {
+                                    watching = watch[0];
+                                }
+			            //---------------------------------------------------------		
 
                         sw.WriteLine("{0},{1},{2},{3},{4},{5},{6}", TicketID, summary, status, priority, submitter, assigned, watching);
                     }

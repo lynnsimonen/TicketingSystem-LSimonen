@@ -1,0 +1,16 @@
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\TicketingSystem.exe
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\TicketingSystem.deps.json
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\TicketingSystem.runtimeconfig.json
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\TicketingSystem.runtimeconfig.dev.json
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\TicketingSystem.dll
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\ref\TicketingSystem.dll
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\bin\Debug\net5.0\TicketingSystem.pdb
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.csproj.AssemblyReference.cache
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.AssemblyInfoInputs.cache
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.AssemblyInfo.cs
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.csproj.CoreCompileInputs.cache
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.dll
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\ref\TicketingSystem.dll
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.pdb
+C:\Users\Lynn\Documents\WCTC\2021 Fall - .Net\Git repos\TicketingSystem\obj\Debug\net5.0\TicketingSystem.genruntimeconfig.cache
